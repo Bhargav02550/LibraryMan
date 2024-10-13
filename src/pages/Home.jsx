@@ -14,17 +14,17 @@ import Gitashlok from "../components/Gitashlok.jsx";
 import Bottombar from "../components/Bottombar.jsx";
 import SerachAndChoose from "../components/SearchAndChoose.jsx";
 
-const Home = ({mode,changeMode}) => {
+const Home = () => {
 
   return (
     <>
-    <Navbar mode={mode} changeMode={changeMode}/>
-    <HomeSearch mode={mode}/>
+    <Navbar/>
+    <HomeSearch/>
 
       {/* Vidya Dadati Vinayam (Knowledge gives humility) - Chapter 4, Verse 39
         Na Hi Jnanena Sadrisham (There is nothing equal to knowledge.) Chapter: 4 Verse: 39
     */}
-     <div className='container' >
+
     <hr className='home-hr'/>
 
       <div className="div-featured">
@@ -110,7 +110,6 @@ const Home = ({mode,changeMode}) => {
     <div>
       <Hero/>
       <Gitashlok/>
-    </div>
     </div>
 
       <Footer />

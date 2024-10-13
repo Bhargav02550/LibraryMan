@@ -6,10 +6,10 @@ import google from "../assets/svg/google.svg"
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 
-const Login = ({mode,changeMode}) => {
+const Login = () => {
     return (
         <>
-            <Navbar mode={mode} changeMode={changeMode}/>
+            <Navbar/>
             {/*<section className="container">*/}
 
             {/*    <div className="image-section">*/}

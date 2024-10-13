@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../assets/styles/PageNotFound.css";
 
-function PageNotFound({mode,changeMode}) {
+function PageNotFound() {
   return (
     <main>
-      <Navbar mode={mode} changeMode={changeMode}/>
+      <Navbar />
       <div id="pagenotfound-container">
         <img
           width="100"

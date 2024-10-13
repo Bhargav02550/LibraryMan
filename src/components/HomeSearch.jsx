@@ -3,7 +3,7 @@ import "../assets/styles/HomeSearch.css";
 import blue from "../assets/svg/blue.svg";
 import { NavLink } from "react-router-dom";
 
-const HomeSearch = ({mode}) => {
+const HomeSearch = () => {
   return (
     <>
     <div className="home-search">

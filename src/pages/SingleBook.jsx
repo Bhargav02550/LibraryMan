@@ -6,7 +6,7 @@ import { useGlobalContext } from "../Context.jsx";
 import "../assets/styles/SingleBook.css";
 import loadingGIF from "../assets/gif/output-onlinegiftools.gif"
 
-const SingleBook = ({mode,changeMode}) => {
+const SingleBook = () => {
     const { id,readLink } = useParams();
     const navigate = useNavigate();
     const [singleBook, setSingleBook] = useState({});
@@ -57,7 +57,7 @@ const SingleBook = ({mode,changeMode}) => {
 
     return (
         <>
-            <Navbar mode={mode} changeMode={changeMode}/>
+            <Navbar />
 
             <section id="single-book-section">
 

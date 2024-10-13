@@ -8,7 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const Contact = ({mode,changeMode}) => {
+const Contact = () => {
 
   const form = useRef();
 
@@ -32,7 +32,7 @@ const Contact = ({mode,changeMode}) => {
   return (
     <>
     <ToastContainer />
-    <Navbar mode={mode} changeMode={changeMode}/>
+    <Navbar/>
       <div className='contact-wrapper'>
         <div className='contact-card'>
         <div className='form'>
