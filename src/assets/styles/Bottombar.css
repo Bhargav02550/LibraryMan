@@ -1,0 +1,35 @@
+.bottombar {
+    height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    color: black;
+    margin: 10px 10px;
+    width: 4rem;
+    height: 50px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    /* background-color: rgb(205, 205, 205); */
+}
+
+@media (width > 768px) {
+    .bottombar {
+        display: none;
+    }
+}
