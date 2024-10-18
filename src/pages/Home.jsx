@@ -15,17 +15,17 @@ import Bottombar from "../components/Bottombar.jsx";
 import SerachAndChoose from "../components/SearchAndChoose.jsx";
 
 const Home = () => {
-
   return (
     <>
-    <Navbar/>
-    <HomeSearch/>
+      <Navbar />
+      <HomeSearch />
+      <SerachAndChoose />
 
       {/* Vidya Dadati Vinayam (Knowledge gives humility) - Chapter 4, Verse 39
         Na Hi Jnanena Sadrisham (There is nothing equal to knowledge.) Chapter: 4 Verse: 39
     */}
 
-    <hr className='home-hr'/>
+      <hr className="home-hr" />
 
       <div className="div-featured">
         <h1>Featured Books</h1>
@@ -100,17 +100,62 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="book-recommend">
-        <div className="book-container">
-          <img src={OOPS} alt="OOPs" loading="lazy" decoding="async" />
-          <button className="read-book">Read Book</button>
+      <div className="book-scroll">
+        <div className="book-recommend">
+          <div className="book-container">
+            <img src={Money} alt="Money" loading="lazy" decoding="async" />
+            <button className="read-book">Read Book</button>
+          </div>
+        </div>
+
+        <div className="book-recommend">
+          <div className="book-container">
+            <img src={OOPS} alt="OOPs" loading="lazy" decoding="async" />
+            <button className="read-book">Read Book</button>
+          </div>
+        </div>
+
+        <div className="book-recommend">
+          <div className="book-container">
+            <img
+              src={Spring}
+              alt="Spring book"
+              loading="lazy"
+              decoding="async"
+            />
+            <button className="read-book">Read Book</button>
+          </div>
+        </div>
+
+        <div className="book-recommend">
+          <div className="book-container">
+            <img
+              src={Programmer}
+              alt="Programmer Book"
+              loading="lazy"
+              decoding="async"
+            />
+            <button className="read-book">Read Book</button>
+          </div>
+        </div>
+
+        <div className="book-recommend">
+          <div className="book-container">
+            <img
+              src={Refactor}
+              alt="Refactor Book"
+              loading="lazy"
+              decoding="async"
+            />
+            <button className="read-book">Read Book</button>
+          </div>
         </div>
       </div>
 
-    <div>
-      <Hero/>
-      <Gitashlok/>
-    </div>
+      <div>
+        <Hero />
+        <Gitashlok />
+      </div>
 
       <Footer />
       <Bottombar />
